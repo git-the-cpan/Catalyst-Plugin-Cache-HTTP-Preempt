@@ -24,6 +24,7 @@ test_requires 'FindBin';
 test_requires 'HTTP::Request::Common';
 test_requires 'Test::WWW::Mechanize::Catalyst';
 test_requires 'Test::More' => '0.88';
+test_requires 'URI';
 
 tests_recursive 't';
 

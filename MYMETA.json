@@ -30,7 +30,8 @@
             "FindBin" : "0",
             "HTTP::Request::Common" : "0",
             "Test::More" : "0.88",
-            "Test::WWW::Mechanize::Catalyst" : "0"
+            "Test::WWW::Mechanize::Catalyst" : "0",
+            "URI" : "0"
          }
       },
       "configure" : {
@@ -71,5 +72,5 @@
          "http://opensource.org/licenses/artistic-license.php"
       ]
    },
-   "version" : "0.001000"
+   "version" : "0.001001"
 }

@@ -1,3 +1,7 @@
+2013-01-19 v0.1.2 Robert Rothenberg  <rr@interactive.co.uk>
+
+	* Added URI as a prerequisite for testing
+
 2013-01-16 v0.1.1 Robert Rothenberg  <rr@interactive.co.uk>
 
 	* Released to CPAN

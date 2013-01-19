@@ -56,7 +56,7 @@ The following non-core Perl modules are required:
 
 =cut
 
-use version 0.77; our $VERSION = version->declare("v0.1.1");
+use version 0.77; our $VERSION = version->declare("v0.1.2");
 
 =head1 DESCRIPTION
 
