@@ -22,6 +22,7 @@ test_requires 'DateTime::Format::HTTP';
 test_requires 'Digest::MD5';
 test_requires 'FindBin';
 test_requires 'HTTP::Request::Common';
+test_requires 'ok';
 test_requires 'Test::WWW::Mechanize::Catalyst';
 test_requires 'Test::More' => '0.88';
 test_requires 'URI';

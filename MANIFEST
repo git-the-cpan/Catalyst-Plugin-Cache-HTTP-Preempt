@@ -28,10 +28,12 @@ t/lib/script/testapp_server.pl
 t/lib/script/testapp_test.pl
 t/lib/TestApp.pm
 t/lib/TestApp/Controller/Root.pm
+xt/inc/Module/Install.pm
 xt/manifest.t
 xt/minimum-version.t
 xt/perlcritic.t
 xt/pod-coverage.t
 xt/pod.t
+xt/prereqs.t
 xt/pureascii.t
 xt/synopsis.t

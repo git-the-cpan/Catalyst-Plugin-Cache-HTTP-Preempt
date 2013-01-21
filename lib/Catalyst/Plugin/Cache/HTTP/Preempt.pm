@@ -26,7 +26,11 @@ Catalyst::Plugin::Cache::HTTP::Preempt - preemptive HTTP cache control
 
 =head1 VERSION
 
-v0.1.0
+v0.1.3
+
+=cut
+
+use version 0.77; our $VERSION = version->declare("v0.1.3");
 
 =head1 REQUIREMENTS
 
@@ -40,23 +44,31 @@ The following non-core Perl modules are required:
 
 =item DateTime
 
-=item DateTime::Format::HTTP
-
 =item HTTP::Message 6.06
 
 =item Moose
 
 =item Readonly
 
+=back
+
+Additional modules may be required for running tests:
+
+=over 4
+
+=item DateTime::Format::HTTP
+
+=item Digest::MD5
+
+=item ok
+
 =item Test::WWW::Mechanize::Catalyst
+
+=item URI
 
 =back
 
 =end readme
-
-=cut
-
-use version 0.77; our $VERSION = version->declare("v0.1.2");
 
 =head1 DESCRIPTION
 
